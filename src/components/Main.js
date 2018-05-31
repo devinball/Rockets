@@ -43,9 +43,20 @@ class Main extends React.Component {
 
         <article id="types" className={`${this.props.article === 'types' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">types</h2>
-          <p>There are many kinds of rockets such as 
-            <a href="">Saturn V</a>
-          </p>
+          <h3>There are many kinds of rockets such as </h3>
+          <ul>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Saturn_V">Saturn V</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Ariane_5">Ariane 5</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/V-2_rocket">A-4</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Soyuz_(spacecraft)">Soyuz</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/R-7_(rocket_family)">R-7</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/N1_(rocket)">N-1</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Atlas_V">Atlas 5</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Vulcan_(rocket)">Vulcan</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Pegasus_(rocket)">Pegasus</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Falcon_9">Falcon 9</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Falcon_Heavy">Falcon Heavy</a></li>
+          </ul>
           {close}
         </article>
 

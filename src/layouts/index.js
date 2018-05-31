@@ -79,11 +79,12 @@ class Template extends React.Component {
     const siteDescription = this.props.data.site.siteMetadata.description
     const { location, children } = this.props
 
-    let rootPath = `/`
+    let rootPath = `/`;
+    let githubRootPath = '/Rockets/';
 
     let content;
 
-    if (location.pathname === rootPath) {
+    if (location.pathname === rootPath || location.pathname === githubRootPath) {
       content = (
         <div id="wrapper">
           <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
