@@ -4,7 +4,7 @@ module.exports = {
     author: "Hunter Chang",
     description: "A Gatsby.js Starter based on Dimension by HTML5 UP"
   },
-  pathPrefix: '/',
+  pathPrefix: '/Rockets',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
